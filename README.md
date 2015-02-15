@@ -41,7 +41,16 @@ E-commerce add-on in Sitefinity is made up of several modules, however, we are o
   * **GlobalResourceClassId**: leave empty
   * **Provider type**: Telerik.Sitefinity.Modules.Ecommerce.Catalog.Data.OpenAccessCatalogDataProvider, Telerik.Sitefinity.Ecommerce
   * **Enabled**: Checked
+ * Click **Save changes**
+ * In the tree on the left, locate the new provider you have created called **ItalyCatalogProvider** and click on it
+ * Click on the **Paramters**, the child node of the **ItalyCatalogProvider**
+ * On the right click on the **Create new** button
+ * Enter the following information in the form:
+  * **Key**: applicationName
+  * **Value**: /Italy
 
 ![](https://github.com/osmak/sitefinity-multistore/blob/master/docs/multistore_country_provider.png)
 
-Repeat this procedure for each region you want to support. Note that **Provider type** field will always be the same, regardless of the region. 
+Repeat this procedure for each region you want to support. Note that **Provider type** field will always be the same, regardless of the region.
+
+Note: the "applicationName" parameter we added to the provider is the discriminator key that will be used in the database table to distinguish products belonging to different providers. This is necessary as our data providers are logical and stored in the same database tables.
