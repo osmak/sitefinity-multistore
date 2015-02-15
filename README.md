@@ -42,4 +42,6 @@ E-commerce add-on in Sitefinity is made up of several modules, however, we are o
   * **Provider type**: Telerik.Sitefinity.Modules.Ecommerce.Catalog.Data.OpenAccessCatalogDataProvider, Telerik.Sitefinity.Ecommerce
   * **Enabled**: Checked
 
+![](https://github.com/osmak/sitefinity-multistore/blob/master/docs/multistore_country_provider.png)
+
 Repeat this procedure for each region you want to support. Note that **Provider type** field will always be the same, regardless of the region. 
