@@ -1,6 +1,6 @@
 # Sitefinity Multistore
 
-Sitefinity Multistore is an project used to demonstrate how to implement multiple stores with Sitefinity e-commerce. The general scenario is a multinational company which sells generally sames products within different geographic regions. While the list of products and products details are almost the same, it is possible that some products are not offered in all the regions. Furthermore, products may have different descriptions or prices within different regions.
+Sitefinity Multistore is an project used to demonstrate how to implement multiple stores with Sitefinity e-commerce. The scenario is a multinational company which sells generally same products within different geographic regions. While the list of products and products details are almost the same, it is possible that some products are not offered in all the regions. Furthermore, products may have different descriptions or prices within different regions.
 
 ## Prerequisites
 
